@@ -39,7 +39,7 @@ This project is built with:
 
 1. Clone the repository:
    ```sh
-   git clone <YOUR_GIT_URL>
+   git clone <https://github.com/kidulajumba254/invoice-management-system.git>
    ```
 
 2. Navigate to the project directory:
