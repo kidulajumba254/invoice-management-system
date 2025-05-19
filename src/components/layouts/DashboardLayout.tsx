@@ -10,7 +10,7 @@ interface DashboardLayoutProps {
 
 const DashboardLayout = ({ children }: DashboardLayoutProps) => {
   return (
-    <SidebarProvider collapsedWidth={56}>
+    <SidebarProvider>
       <div className="min-h-screen flex w-full bg-slate-50">
         <AppSidebar />
         <div className="flex-1 flex flex-col">
@@ -45,7 +45,7 @@ const AppSidebar = () => {
   ];
 
   return (
-    <Sidebar className={`${collapsed ? "w-16" : "w-64"} bg-white border-r py-4`} collapsible>
+    <Sidebar className={`${collapsed ? "w-16" : "w-64"} bg-white border-r py-4`} collapsible="icon">
       <SidebarTrigger className="absolute right-3 top-3" />
       
       <SidebarContent className="pt-8">

@@ -25,7 +25,7 @@ import StatusBadge from "@/components/ui/status-badge";
 
 const InvoiceList = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [statusFilter, setStatusFilter] = useState("");
+  const [statusFilter, setStatusFilter] = useState("all");
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString("en-US", {
@@ -49,7 +49,7 @@ const InvoiceList = () => {
       invoice.client.name.toLowerCase().includes(searchTerm.toLowerCase());
 
     const matchesStatus =
-      statusFilter === "" || invoice.status === statusFilter;
+      statusFilter === "all" || invoice.status === statusFilter;
 
     return matchesSearch && matchesStatus;
   });
@@ -82,7 +82,7 @@ const InvoiceList = () => {
                 <SelectValue placeholder="All Statuses" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Statuses</SelectItem>
+                <SelectItem value="all">All Statuses</SelectItem>
                 <SelectItem value="paid">Paid</SelectItem>
                 <SelectItem value="pending">Pending</SelectItem>
                 <SelectItem value="draft">Draft</SelectItem>
