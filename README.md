@@ -15,6 +15,9 @@ Invoice Master is a comprehensive personal invoice management system designed to
 - **Dashboard Overview**: Get a quick snapshot of your financial status with summaries of paid invoices, pending payments, and overdue amounts.
 - **Invoice Management**: Create, edit, and delete invoices with an easy-to-use interface.
 - **Client Management**: Maintain a database of your clients for quick invoice creation.
+
+  ![image](https://github.com/user-attachments/assets/5b419ee5-0ade-41a2-96bf-406a93eade37)
+
 - **Status Tracking**: Track the status of your invoices (Draft, Pending, Paid).
 - **Responsive Design**: Access your invoicing data on any device.
 
