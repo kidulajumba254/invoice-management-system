@@ -3,6 +3,9 @@
 
 ![Invoice Master](public/background.png)
 
+![image](https://github.com/user-attachments/assets/5eb43586-bb10-4330-a613-c316d448bea3)
+
+
 ## Overview
 
 Invoice Master is a comprehensive personal invoice management system designed to help freelancers, small businesses, and independent professionals manage their invoicing workflow. The application provides an intuitive interface for creating, tracking, and managing invoices and clients.
