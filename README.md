@@ -1,5 +1,5 @@
 
-# Invoice Master - Personal Invoice Management System
+#  Personal Invoice Management System
 
 ![Invoice Master](public/background.png)
 
