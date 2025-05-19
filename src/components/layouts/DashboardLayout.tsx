@@ -11,10 +11,10 @@ interface DashboardLayoutProps {
 const DashboardLayout = ({ children }: DashboardLayoutProps) => {
   return (
     <SidebarProvider>
-      <div className="min-h-screen flex w-full bg-slate-50">
+      <div className="min-h-screen flex w-full bg-gradient-to-br from-slate-50 to-slate-100 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
         <AppSidebar />
         <div className="flex-1 flex flex-col">
-          <header className="h-16 border-b bg-white flex items-center px-6">
+          <header className="h-16 border-b bg-white/80 backdrop-blur-sm flex items-center px-6 shadow-sm">
             <h1 className="text-xl font-semibold text-slate-900">Invoice Master</h1>
           </header>
           <main className="flex-1 p-6 overflow-auto">
@@ -45,7 +45,7 @@ const AppSidebar = () => {
   ];
 
   return (
-    <Sidebar className={`${collapsed ? "w-16" : "w-64"} bg-white border-r py-4`} collapsible="icon">
+    <Sidebar className={`${collapsed ? "w-16" : "w-64"} bg-white/90 backdrop-blur-sm border-r py-4`} collapsible="icon">
       <SidebarTrigger className="absolute right-3 top-3" />
       
       <SidebarContent className="pt-8">
