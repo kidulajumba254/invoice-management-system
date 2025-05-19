@@ -44,7 +44,7 @@ This project is built with:
 
 2. Navigate to the project directory:
    ```sh
-   cd invoice-master
+   cd invoice-management-system
    ```
 
 3. Install dependencies:
@@ -106,4 +106,4 @@ This project is licensed under the MIT License.
 
 ## Support
 
-If you encounter any issues or have questions, please open an issue in the project repository or contact support through Lovable's interface.
+If you encounter any issues or have questions, please open an issue in the project repository or contact support kidulajesse@gmail.com
